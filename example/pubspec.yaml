@@ -14,7 +14,7 @@ dependencies:
   go_router: ^14.8.0
   provider: ^6.1.2
   routing_generator:
-    path: ../
+    git: https://github.com/JonathanVegasP/routing_generator.git
 
 dev_dependencies:
   flutter_test:
@@ -22,7 +22,7 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   build_runner: ^2.4.15
   routing_generator_builder:
-    path: ../../routing_generator_builder
+    git: https://github.com/JonathanVegasP/routing_generator_builder.git
 
 flutter:
   uses-material-design: true

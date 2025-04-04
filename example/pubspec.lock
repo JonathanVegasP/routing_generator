@@ -427,17 +427,21 @@ packages:
   routing_generator:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.0.1"
+      path: "."
+      ref: HEAD
+      resolved-ref: aed1d105701a20fa1a57a2afe8f70e81b66b85dc
+      url: "https://github.com/JonathanVegasP/routing_generator.git"
+    source: git
+    version: "1.0.0"
   routing_generator_builder:
     dependency: "direct dev"
     description:
-      path: "../../routing_generator_builder"
-      relative: true
-    source: path
-    version: "0.0.1"
+      path: "."
+      ref: HEAD
+      resolved-ref: "513292eff312131b2214e79504c4b891eeb79e85"
+      url: "https://github.com/JonathanVegasP/routing_generator_builder.git"
+    source: git
+    version: "1.0.0"
   shelf:
     dependency: transitive
     description:
