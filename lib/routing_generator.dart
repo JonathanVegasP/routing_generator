@@ -1,0 +1,1 @@
+export 'src/routing_generator.dart';

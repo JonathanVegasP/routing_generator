@@ -1,0 +1,5 @@
+targets:
+  $default:
+    builders:
+      routing_generator_builder|routing:
+        generate_for:
